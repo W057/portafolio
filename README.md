@@ -1,16 +1,42 @@
-# React + Vite
+# 🚀 WeLink - Portafolio Profesional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi portafolio profesional, diseñado para mostrar mis habilidades y proyectos más relevantes en el desarrollo de software. Fue construido como parte de una tarea académica, demostrando conocimientos en desarrollo frontend moderno y la implementación de un stack tecnológico robusto.
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Diseño Minimalista y Moderno:** Interfaz limpia y enfocada en el contenido.
+* **Sección "Sobre Mí":** Presentación personal y habilidades clave.
+* **Proyectos Destacados:** Galería interactiva con descripciones breves y enlaces a repositorios o demos.
+* **Formulario de Contacto:** Facilita la comunicación con posibles reclutadores o colaboradores.
+* **Totalmente Responsivo:** Adaptado para visualizarse correctamente en cualquier dispositivo (móvil, tablet, escritorio).
+* **Optimizado:** Carga rápida y base para SEO.
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend Framework:** React.js
+* **Build Tool:** Vite
+* **Estilos:** Tailwind CSS
+* **Iconos:** Lucide React
+* **Despliegue:** GitHub Pages, gh-pages (npm package)
 
-## Expanding the ESLint configuration
+## 🚀 Despliegue en GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto está configurado para un despliegue sencillo en GitHub Pages.
+
+1. Asegúrate de haber subido tu repositorio a GitHub.
+2. Ejecuta el siguiente comando:
+
+    ```bash
+    npm run deploy
+    ```
+
+    Este comando compilará tu aplicación y la publicará en la rama `gh-pages` de tu repositorio.
+
+## ✏️ Personalización
+
+Puedes personalizar fácilmente el contenido de tu portafolio editando los siguientes archivos:
+
+* **Información Personal y Proyectos:** `src/data/info.js`
+* **Estilos y Componentes:** `src/components/*.jsx` y `src/index.css`
+
+---
